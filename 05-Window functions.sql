@@ -56,6 +56,3 @@ SELECT
 FROM mau
 -- Order by month in ascending order
 ORDER BY delivr_month ASC;
-
-
-
