@@ -87,6 +87,3 @@ CROSS JOIN quartiles
 -- Only keep users with revenues in the IQR range
 WHERE revenue :: NUMERIC >= revenue_p25
   AND revenue :: NUMERIC <= revenue_p75;
-
-
-
