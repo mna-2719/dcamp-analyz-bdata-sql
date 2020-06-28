@@ -35,6 +35,3 @@ FROM user_count_orders
 ORDER BY count_orders_rank ASC
 -- Limit the user IDs selected to 3
 LIMIT 3;
-
-
-
