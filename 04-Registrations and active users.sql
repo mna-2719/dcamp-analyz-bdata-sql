@@ -34,6 +34,3 @@ FROM orders
 GROUP BY delivr_month
 -- Order by month
 ORDER BY delivr_month ASC;
-
-
-
