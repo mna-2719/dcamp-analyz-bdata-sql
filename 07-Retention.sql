@@ -79,6 +79,3 @@ SELECT
   2) AS growth
 FROM orders_with_lag
 ORDER BY delivr_month ASC;
-
-
-
