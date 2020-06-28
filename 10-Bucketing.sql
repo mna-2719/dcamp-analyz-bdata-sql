@@ -39,6 +39,3 @@ SELECT
   COUNT (DISTINCT user_id) AS users
 FROM user_orders
 GROUP BY order_group;
-
-
-
