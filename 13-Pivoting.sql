@@ -56,6 +56,3 @@ AS ct (eatery TEXT,
        "2018-11-01" FLOAT,
        "2018-12-01" FLOAT)
 ORDER BY eatery ASC;
-
-
-
