@@ -70,5 +70,3 @@ AS  ct (eatery TEXT,
         "Q3 2018" INT,
         "Q4 2018" INT)
 ORDER BY "Q4 2018";
-
-
