@@ -4,7 +4,7 @@ WITH revenue AS (
          SUM (meal_price * order_quantity) AS revenue
     FROM meals
     JOIN orders
-	ON meals.meal_id = orders.meal_id
+    ON meals.meal_id = orders.meal_id
    GROUP BY eatery),
 
   cost AS (
@@ -13,7 +13,7 @@ WITH revenue AS (
          SUM (meal_cost * stocked_quantity) AS cost
     FROM meals
     JOIN stock
-	  ON meals.meal_id = stock.meal_id
+    ON meals.meal_id = stock.meal_id
    GROUP BY eatery)
 
    -- Calculate profit per eatery
@@ -41,8 +41,8 @@ WITH revenue AS (
 		SUM (meal_cost * stocked_quantity) AS cost
 	FROM meals
     JOIN stock
-	  ON meals.meal_id = stock.meal_id
-	GROUP BY delivr_month)
+    ON meals.meal_id = stock.meal_id
+    GROUP BY delivr_month)
 -- Calculate profit by joining the CTEs
 SELECT
 	revenue.delivr_month,
