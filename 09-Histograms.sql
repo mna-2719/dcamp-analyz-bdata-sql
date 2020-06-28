@@ -41,6 +41,3 @@ SELECT
 FROM user_orders
 GROUP BY orders
 ORDER BY orders ASC;
-
-
-
